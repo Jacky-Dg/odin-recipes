@@ -12,25 +12,35 @@
 
 
 <body style="background-color: cornsilk; 
-                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFpbkp9-6qmP8zqp6mohljZ2xTGbZVZ0SR7rR6t2hww&s=10) disabled">
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFpbkp9-6qmP8zqp6mohljZ2xTGbZVZ0SR7rR6t2hww&s=10) disabled;
+                margin: 0;
+                overflow: 0">
 
-    <div style="display: flex; justify-content: center;">
-        <h1 style="gap: 10px; 
-            border-radius: 5px; 
-            background-color:antiquewhite; 
-            color:orangered; 
-            text-shadow: 2px 2px 4px black;
-            box-shadow: 2px 2px 4px gray;"
-            >&nbsp;&nbsp;Odin  Recipes&nbsp;&nbsp;
-        </h1>
-    </div>
-
+    <nav style="background-color: white; 
+                width: 100%; height: 70px; 
+                box-shadow: 2px 2px 4px gray; 
+                background-color:antiquewhite;
+                overflow: hidden;
+                text-align: center">
+        <a href="index.html" style="text-decoration: none; 
+                                        color: orangered; 
+                                        text-shadow: 2px 2px 4px #000000">
+            <h1>Odin Recipes</h1>
+        </a>
+    </nav>
     
+
+    <br><br><br>
+    
+
     <div class="container">
         <div class="fieldset-row" style="display: flex; justify-content: center;">
 
             <!--FIRST RECIPE: PUMPKIN BREAD-->
-            <fieldset style="width: 501px; text-align:center; background-color:antiquewhite; border-radius:10px" name="recipe">
+            <fieldset name="recipe" style="width: 501px; 
+                                            text-align:center; 
+                                            background-color:antiquewhite; 
+                                            border-radius:10px">
                 <legend>
                     <form action="recipes/pumpkin-bread.html" target="_blank">
                         <button type="submit" style="text-decoration: none; 
@@ -42,7 +52,9 @@
                                                     font-family: 'Times New Roman', Times, serif;
                                                     font-weight: bold;
                                                     border-radius: 8px;
-                                                    background-color:orange">
+                                                    background-color:orange;
+                                                    text-shadow: 2px 2px 4px lightgray;
+                                                    box-shadow: 2px 2px 4px gray;">
                             Downeast Maine Pumpkin Bread
                         </button>
                     </form>
@@ -53,13 +65,24 @@
                     <img src="images/mainepumpkinbread.jpg" 
                             alt="Downeast Maine Pumpkin Bread" 
                             width="85%" 
+                            height="270px"
                             style="border-radius: 10px">
                 </div><br>
 
                 <!--PUMPKIN BREAD BUTTON-->
-                <div style="display: flex; flex-direction: column; text-align: center; justify-content: flex-end; ">
+                <div style="display: flex; 
+                            flex-direction: column; 
+                            text-align: center; 
+                            justify-content: flex-end; ">
                     <form action="recipes/pumpkin-bread.html" target="_blank">
-                        <button type="submit" style="background-color: lightgray; border-radius: 100px; padding: 15px; font-size: medium; cursor: pointer">View Recipe</button>
+                        <button type="submit" style="background-color: lightgray; 
+                                                     border-radius: 100px; 
+                                                     padding: 15px; 
+                                                     font-size: medium; 
+                                                     cursor: pointer;
+                                                     box-shadow: 2px 2px 4px gray;">
+                            View Recipe
+                        </button>
                     </form>
                 </div>
             </fieldset>
@@ -89,7 +112,9 @@
                                                     font-family: 'Times New Roman', Times, serif;
                                                     font-weight: bold;
                                                     border-radius: 8px;
-                                                    background-color:orange">
+                                                    background-color:orange;
+                                                    text-shadow: 2px 2px 4px lightgray;
+                                                    box-shadow: 2px 2px 4px gray;">
                             One Pot Teriyaki Chicken Casserole
                         </button>
                     </form>
@@ -100,6 +125,7 @@
                     <img src="images/chickencasserole.jpg" 
                             alt="One-Pot Teriyaki Chicken Casserole" 
                             width="85%"
+                            height="270px"
                             style="border-radius: 10px;">
                 </div><br>
 
@@ -110,7 +136,10 @@
                                                         border-radius: 100px; 
                                                         padding: 15px; 
                                                         font-size: medium; 
-                                                        cursor: pointer">View Recipe</button>
+                                                        cursor: pointer;
+                                                        box-shadow: 2px 2px 4px gray;">
+                            View Recipe
+                        </button>
                     </form>
                 </div><br>
             </fieldset>
@@ -140,7 +169,9 @@
                                                     font-family: 'Times New Roman', Times, serif;
                                                     font-weight: bold;
                                                     border-radius: 8px;
-                                                    background-color:orange">
+                                                    background-color:orange;
+                                                    text-shadow: 2px 2px 4px lightgray;
+                                                    box-shadow: 2px 2px 4px gray;">
                             Pennslyvania Dutch Chicken Soup
                         </button>
                     </form>
@@ -151,6 +182,7 @@
                     <img src="images/chickensoup.jpg" 
                             alt="Pennslyvania Dutch Chicken Soup" 
                             width="85%"
+                            height="270px"
                             style="border-radius: 10px;">
                 </div><br>
 
@@ -161,7 +193,8 @@
                                                         border-radius: 100px; 
                                                         padding: 15px; 
                                                         font-size: medium; 
-                                                        cursor: pointer">
+                                                        cursor: pointer;
+                                                        box-shadow: 2px 2px 4px gray;">
                             View Recipe
                         </button>
                     </form>
